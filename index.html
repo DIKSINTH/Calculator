@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link src="index.js" />
+  </head>
+  <body>
+    <div id="calculator">
+      <input id="num" type="number" />
+      <div id="hero"><p id="calculations"></p></div>
+      <div id="section-1">
+        <button id="Clear" class="btn" onclick="clear()">C</button>
+        <button id="Modulus" class="btn" onclick="mod()">%</button>
+        <button id="Division" class="btn" onclick="div()">/</button>
+        <button id="Multiplication" class="btn" onclick="mul()">X</button>
+      </div>
+      <div id="section-2">
+        <button id="Subraction" class="btn" onclick="sub()">-</button>
+        <button id="Addition" class="btn" onclick="add()">+</button>
+        <button id="Equal" class="btn" onclick="equal()">=</button>
+        <button id="dot" class="btn" onclick="dot()">.</button>
+      </div>
+      <div id="section-3">
+        <button id="Zero" class="btn" onclick="zero()">0</button>
+        <button id="Nine" class="btn" onclick="nine()">9</button>
+        <button id="Eight" class="btn" onclick="eight()">8</button>
+        <button id="Seven" class="btn" onclick="seven()">7</button>
+        <button id="Six" class="btn" onclick="six()">6</button>
+      </div>
+      <div id="section-4">
+        <button id="Five" class="btn" onclick="five()">5</button>
+        <button id="Four" class="btn" onclick="four()">4</button>
+        <button id="Three" class="btn" onclick="three()">3</button>
+        <button id="Two" class="btn" onclick="two()">2</button>
+        <button id="One" class="btn" onclick="one()">1</button>
+      </div>
+    </div>
+  </body>
+</html>

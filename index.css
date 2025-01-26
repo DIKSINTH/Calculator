@@ -1,0 +1,85 @@
+/* styles.css */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+#hero {
+  width: 100%;
+  height: 5vh;
+}
+#calculations {
+  margin-left: 70%;
+  width: 30%;
+  height: 4vh;
+  border: 1px solid red;
+  margin-top: 2px;
+}
+#num {
+  width: 100%;
+  height: 10%;
+  border-radius: 0.5em;
+  border: 0.5px solid rgba(0, 0, 0, 20%);
+}
+#num:hover {
+  border: 0.5px solid rgba(0, 0, 0, 80%);
+}
+#calculator {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  height: 80vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 35vw;
+}
+#section-1 .btn {
+  width: 24.37%;
+}
+#section-2 .btn {
+  width: 24.37%;
+}
+#section-3 .btn {
+  width: 19.3%;
+}
+.btn {
+  margin-bottom: 2px;
+  border-radius: 10px;
+}
+#section-4 .btn {
+  width: 19.3%;
+}
+#Clear {
+  color: red;
+}
+#Equal {
+  color: green;
+}
+.btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 30px;
+  font-size: 3em;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.btn:hover {
+  background-color: #ddd;
+}
+.btn:active {
+  background-color: #ccc;
+}
